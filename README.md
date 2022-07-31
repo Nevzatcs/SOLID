@@ -20,3 +20,8 @@ Gördüğümüz gibi Car sınıfımızın 3 tane sorumluluğu var. Bu durumda SR
 O - Open Closed Principle
 
 Nesnelerimiz, gelişime açık değişime kapalı olmalıdır. Nesnemizin mevcuttaki davranışına dokunmadan, yeni özellikler kazandırabilmeliyiz. 
+
+L - Liskov Substitution Principle
+
+Ana sınıftaki nesnelerin, alt sınıftaki nesnelerle yer değiştirdiğinde aynı davranışı sergilemesi gerekmektedir. Yani, bu değişiklik programın akışını bozmamalıdır. Bu prensibe göre, ana sınıfın nesnesini oluşturmak yerine alt sınıfın nesnensini oluşturursan problem yaşamamalısın.
+Örnek vermek gerekirse; komşunun kuşunu besledin ve kuş öldü. Kuşun yerine oyuncak kuş koymak sorunu çözmeyecek.LSP, ihmal edilmiş olacak.
