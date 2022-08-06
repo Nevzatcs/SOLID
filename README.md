@@ -4,6 +4,8 @@
 Basit bir şekilde açıklamak gerekirse: 
 Sınıfı, bir evin planı gibi düşünelim. Evin kapı, dolap rengi gibi özellikleri ve kapısının açılma şekli gibi fonksiyonları olabilir. Nesne de aslında bu plana göre inşa edilen tüm evlerdir. Buna araba örneği de dahil edilebilir. 
 
+SOLID prensipleri, yazılım geliştirirken bakımı, anlaşılması kolay olan ve sürdürülebilir kod yazmamızı sağlayan prensiplerdir. Bu prensiplere uyarak; daha az hatalı,  kaliteli kodlar ortaya çıkarabiliriz.
+
 S - Single Responsibility Principle
 
 Her sınıfın yalnızca bir sorumluluğu olmalıdır. Böylelikle, bir fonksiyonumuz sadece bir işi yapar. Bu sayede daha yönetilebilir bir yapı kurmuş oluruz.  Bu kurala uymazsak ilerleyen süreçte kodumuz kontrol edemeyeceğimiz seviyede büyür ve kodun içinde kayboluruz. 
