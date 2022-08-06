@@ -25,3 +25,11 @@ L - Liskov Substitution Principle
 
 Ana sınıftaki nesnelerin, alt sınıftaki nesnelerle yer değiştirdiğinde aynı davranışı sergilemesi gerekmektedir. Yani, bu değişiklik programın akışını bozmamalıdır. Bu prensibe göre, ana sınıfın nesnesini oluşturmak yerine alt sınıfın nesnensini oluşturursan problem yaşamamalısın.
 Örnek vermek gerekirse; komşunun kuşunu besledin ve kuş öldü. Kuşun yerine oyuncak kuş koymak sorunu çözmeyecek.LSP, ihmal edilmiş olacak.
+
+I - Interface Segregation 
+
+Nesneler, kullanmadıkları interface lere bağımlı olmamaya zorlanmamalıdır. Ihtiyaç olunmayan metodların interfacede deklare edilmesi interface imizi gereksiz yere şişirir. Yani, farklı sorumluluklar için özelleştirilmiş farklı arayüzler kullanmalıyız.
+
+D - Dependency Inversion
+
+Üst seviyeli sınıflar, alt seviyeli sınıflara bağımlı olmamalıdır. Soyutlamalara bağımlı olmalıdır. Böylece, alt sınıfta yapılan değişiklikler üst sınıfı etkilemez ve üst sınıfta yapılan değişiklik alt sınıfta bir davranış bozukluğuna yol açmaz. 
